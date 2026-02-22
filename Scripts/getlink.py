@@ -17,7 +17,7 @@ os.makedirs(AD_LINKS_DIR, exist_ok=True)
 # ==========================================
 # 1. SCRAPING PARAMETERS
 # ==========================================
-SEARCH_QUERY = "iphone"
+SEARCH_QUERY = "phone"
 MAX_PAGES = 40
 
 def smart_delay(min_seconds=3.0, max_seconds=6.0):
@@ -39,7 +39,8 @@ def harvest_links():
 
     try:
         for page in range(1, MAX_PAGES + 1):
-            url = f"https://ikman.lk/en/ads/sri-lanka?by_paying_member=0&sort=date&order=desc&buy_now=0&urgent=0&query={SEARCH_QUERY}&page={page}"
+            ##url = f"https://ikman.lk/en/ads/sri-lanka?by_paying_member=0&sort=date&order=desc&buy_now=0&urgent=0&query={SEARCH_QUERY}&page={page}"
+            url=f"https://ikman.lk/en/ads/sri-lanka/mobile-phones?by_paying_member=0&sort=date&order=desc&buy_now=0&urgent=0&page={page}"
             print(f"Navigating to Page {page}...")
             
             driver.get(url)
