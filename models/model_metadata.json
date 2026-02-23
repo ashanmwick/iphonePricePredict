@@ -1,0 +1,7 @@
+{
+  "model_type": "RandomForestRegressor",
+  "training_samples": 779,
+  "testing_samples": 260,
+  "n_features": 19,
+  "trained_date": "2026-02-23 15:39:06"
+}
