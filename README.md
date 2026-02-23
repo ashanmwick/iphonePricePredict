@@ -44,7 +44,7 @@ iphonePricePredict/
 │   └── evaluation_metrics.json
 ├── notebooks/
 │   ├── noteBook.ipynb               # Main preprocessing + training notebook
-│   └── dataset_analytics.ipynb      # Additional analysis notebook
+│   └── dataset_analytics_for_hyper_para.ipynb      # Additional analysis notebook for hyper parameter 
 └── webPage/                         # Empty at the moment
 ```
 
